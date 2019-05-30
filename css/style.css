@@ -1,0 +1,237 @@
+
+/*    outline: 1px solid black;
+*/
+
+/* GENERAL*/
+body, html {
+    color: #323232;
+    background: #eeefed;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* -webkit-font-smoothing: antialiased;  */
+}
+
+.container:before,
+.group:before,
+.menu:before,
+.container:after,
+.group:after,
+.menu:after {
+    content: " ";
+    display: table;    
+}
+
+/* clearujeme floaty */
+.container:after,
+.group:after,
+.menu:after {
+    clear: both;
+}
+
+.container,
+.group,
+.menu {
+    *zoom: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong  {
+    font-weight: 600;
+}
+
+.menu {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.menu li {
+    float: left;
+}
+
+.fas {
+    vertical-align: middle;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+}
+
+/* CONTACT */
+.main-bar,
+.personal a {
+    color: #fff;
+}
+
+.main-bar {
+    background: #39a3d4;
+    height: 84px;
+    font-size: 14px;
+}
+
+.personal {
+    margin-top: 29px;
+    float: left;
+}
+
+.main {
+    float: right;
+    margin-top: 18px;
+}
+
+.personal li {
+    margin-right: 70px;
+}
+.personal .fas {
+    font-size: 28px;
+    margin-right: 5px;
+}
+
+.main .fas {
+    font-size: 17px;
+}
+
+.main-icon {
+    display: block;
+    width: 48px;
+    height: 48px;
+    line-height: 46px;
+
+    color: #989898;
+    background: #eeefed;
+    text-align: center;
+
+    border-radius: 2px;
+    margin-right: 2px;
+}
+
+.main-icon:hover,
+.main-icon:focus {
+    color: #fff;
+    background: #5bd0ec;
+}
+
+/* NAVIGATION */
+.nav-bar {
+    background: #f2f2f2;
+    border-bottom: 1px solid #cecece;
+}
+
+.logo {
+    float: left;
+}
+
+.logo a {
+    display: block;
+    /* background: url('../img/Tut-logo.png') 0 0 no-repeat; */
+    width: 200px;
+    height: 65px;
+    /* text-indent: -9999px; */
+}
+
+.navigation {
+    float: right;
+}
+
+.navigation .fas {
+    display: block;
+    padding-top: 27px;
+    padding-bottom: 10px;
+}
+
+.navigation li {
+    border-left: 1px solid #cecece;
+}
+
+.navigation li:last-child {
+    border-right: 1px solid #cecece;
+}
+
+.navigation a {
+    color: #a6a6a6;
+    display: block;
+    width: 136px;
+    height: 120px;
+    text-align: center;
+}
+
+.select a,
+.navigation a:hover,
+.navigation a:focus {
+    color: #de5728;
+}
+
+/* FOOTER */
+.pre-footer {
+    color: #fff;
+    background: #323232;
+    text-align: center;
+}
+
+.pre-footer .container {
+    width: 500px;
+    padding: 40px 0 60px 0;
+}
+
+.pre-footer p {
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.pre-footer strong {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: none;
+}
+
+.pre-footer .personal li {
+    margin-right: 0px;
+}
+
+.pre-footer .personal li:first-child {
+    margin-right: 130px;
+}
+
+footer {
+    font-size: 14px;
+}
+
+footer p {
+    color: #a6a6a6;
+    float: left;
+}
+
+footer p,
+footer .menu {
+    margin: 32px 0 32px 0;
+}
+
+
+footer .menu {
+    font-weight: 600;
+    text-transform: uppercase;
+    float: right;
+}
+
+footer .menu a {
+    color: #989898;
+}
+
+footer .menu a:hover,
+footer .menu a:focus {
+    text-decoration: underline;
+}
+
+footer li:after {
+    content: '/' ;
+    color: #989898;
+    margin: 5px 5px;
+}
+
+footer li:last-child:after {
+    content: none;
+}
