@@ -1,7 +1,5 @@
 
-/*    outline: 1px solid black;
-*/
-
+/* outline: 1px solid black; */
 /* GENERAL*/
 body, html {
     color: #323232;
@@ -52,7 +50,8 @@ strong  {
 }
 
 .fas {
-    vertical-align: middle;
+    vertical-align: top;
+    padding-top: 4px;
 }
 .container {
     max-width: 1170px;
@@ -61,20 +60,19 @@ strong  {
 }
 
 /* CONTACT */
-.main-bar,
-.personal a {
-    color: #fff;
-}
-
 .main-bar {
     background: #39a3d4;
     height: 84px;
     font-size: 14px;
 }
 
-.personal {
+.logo {
     margin-top: 29px;
     float: left;
+}
+
+.logo a {
+    color: #fff;
 }
 
 .main {
@@ -82,10 +80,7 @@ strong  {
     margin-top: 18px;
 }
 
-.personal li {
-    margin-right: 70px;
-}
-.personal .fas {
+.logo .fas {
     font-size: 28px;
     margin-right: 5px;
 }
@@ -106,6 +101,10 @@ strong  {
 
     border-radius: 2px;
     margin-right: 2px;
+}
+
+. main li {
+    line-height: 0;
 }
 
 .main-icon:hover,
